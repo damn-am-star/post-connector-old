@@ -1,0 +1,18 @@
+{
+	"servers": {
+		"com.microsoft/microsoft-fabric": {
+			"type": "stdio",
+			"command": "dnx",
+			"args": [
+				"Microsoft.Fabric.Mcp@1.4.0",
+				"--yes",
+				"--",
+				"server",
+				"start"
+			],
+			"gallery": "https://api.mcp.github.com",
+			"version": "1.4.0"
+		}
+	},
+	"inputs": []
+}
